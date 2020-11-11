@@ -1,0 +1,104 @@
+
+/* Add Styles to HTML */
+
+html{
+    background-color: whitesmoke;
+}
+body{
+    margin :0;
+    padding: 0;
+    max-width: auto;
+    text-align: center;
+    overflow: hidden;
+}     
+
+@media ( min-width:350px){
+h1{
+    padding: 15px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rebeccapurple;
+}
+img{
+    padding:22px;
+    margin:30px;
+    height: 140px;
+    display: inline-block;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    display: block;
+    margin: 50px auto;
+}
+
+}
+
+
+@media ( min-width:650px){
+h1{
+    padding: 15px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rebeccapurple;
+}
+img{
+    padding:22px;
+    margin:30px;
+    height: 160px;
+    display: inline-block;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    display: block;
+    margin: 50px auto;
+}
+
+}
+@media ( min-width:800px){
+h1{
+    padding: 15px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rebeccapurple;
+}
+img{
+    padding:22px;
+    margin:30px;
+    height: 180px;
+    display: inline-block;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    display: block;
+    margin: 50px auto;
+}
+
+}
+@media ( min-width:1000px){
+h1{
+    padding: 15px;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rebeccapurple;
+}
+img{
+    padding:22px;
+    margin:30px;
+    height: 200px;
+    display: inline-block;
+}
+button{
+    width: 60px;
+    height: 60px;
+    background: transparent;
+    display: block;
+    margin: 50px auto;
+}
+
+}
